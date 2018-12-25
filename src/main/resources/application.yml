@@ -1,5 +1,5 @@
 spring:
-    datasource:
+  datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/sysadminplatform?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
     username: root
@@ -21,7 +21,7 @@ spring:
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
       stat-view-servlet:
         allow: 127.0.0.1
-  jackson:
+  jackson :  
     date-format: yyyy-MM-dd HH:mm:ss
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -78,4 +78,4 @@ token:
     seconds: 7200
   jwtSecret: (XIAO:)_$^11244^%$_(WEI:)_@@++--(LAO:)_++++_.sds_(SHI:)
 server:
-  port: 8889  
+  port: 8080 
