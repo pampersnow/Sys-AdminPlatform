@@ -6,7 +6,14 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 import com.sys.pro.dto.LoginUser;
-
+/**
+ * @author JYB
+ * @date 2018.10
+ * @version 版本标识
+ * @parameter 用户工具类
+ * @return 返回值
+ * @throws 异常类及抛出条件
+ */
 public class UserUtil {
 	
 	public static LoginUser getLoginUser() {

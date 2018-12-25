@@ -27,9 +27,9 @@ public class UserServiceImpl implements UserService {
 
 	private static final Logger log = LoggerFactory.getLogger("adminLogger");
 
-	@Autowired
+	@Autowired(required = true)
 	private UserDao userDao;
-	@Autowired
+	@Autowired(required = true)
 	private BCryptPasswordEncoder passwordEncoder;
 
 	@Override
